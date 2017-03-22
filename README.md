@@ -1,11 +1,11 @@
 # Vuejs-Tutorial
 
-## Basic Data Binding
+[1. Basic Data Binding](https://codepen.io/qiongrongjiang/pen/yMjBZN/)
+[2. Vue Event Listeners](https://codepen.io/qiongrongjiang/pen/OpZPvm/)
+[3. Loops](https://codepen.io/qiongrongjiang/pen/yMjyOv)
+[4. Conditionals](https://codepen.io/qiongrongjiang/pen/QprbLV)
+[5. Attribute and Class Binding](https://codepen.io/qiongrongjiang/pen/xqjGdO)
+[6. Components](https://codepen.io/qiongrongjiang/pen/evrNQJ)
+[7. Vue.js Exercise](https://codepen.io/qiongrongjiang/pen/xqjVNr)
+[8. Solution for Vue.js Exercise](https://codepen.io/qiongrongjiang/pen/ZeoGwQ)
 
-<p data-height="265" data-theme-id="0" data-slug-hash="yMjBZN" data-default-tab="html,result" data-user="qiongrongjiang" data-embed-version="2" data-pen-title="1. Basic Data Binding Using Model" class="codepen">See the Pen <a href="https://codepen.io/qiongrongjiang/pen/yMjBZN/">1. Basic Data Binding Using Model</a> by Qiongrong  Jiang (<a href="http://codepen.io/qiongrongjiang">@qiongrongjiang</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
-## Vue Event Listeners
-
-<iframe height='265' scrolling='no' title='2. Vue Event Listeners' src='//codepen.io/qiongrongjiang/embed/OpZPvm/?height=265&theme-id=0&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='https://codepen.io/qiongrongjiang/pen/OpZPvm/'>2. Vue Event Listeners</a> by Qiongrong  Jiang (<a href='http://codepen.io/qiongrongjiang'>@qiongrongjiang</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
