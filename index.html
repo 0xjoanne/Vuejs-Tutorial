@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vue.js Tutorial</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <main id="tutorial">
+    <header>
+      <img src="https://vuejs.org/images/logo.png" alt="logo" width="80">
+      <h1>Vue.js Tutorial</h1>
+      <a href="https://docs.google.com/document/d/1WPtrb09_nFJTYN784aiMWE-LNWWoWn4hCpeSfH_wZm0/edit?usp=sharing" target="_blank">Document</a>
+    </header>
+
+    <div>
+      <div>
+        <h3>1. Basic Data Binding</h3>
+        <p>Create a two-way binding on a form input element or a component. </p>
+        <a href="#" @click="readMore">Read More</a>
+        <div v-show="isShow">
+          <p>Here we can make use of the v-model directive by attaching it to the input element on line 3. By doing this it makes a connection with our data object property of the same name. In this case message: ‘This a message’ is attached to v-model=”message”.</p>
+          <p>The value within the H1  is also displaying the value of message by the use of Declarative Rendering to the dom by use of a simple template syntax {{   }}. Ex. {{ message }}</p>
+          <p>Try it out : </p>
+          <p>Change the data property named message to anything  you like and watch the value within the input and H1 change dynamically. This is also a two way binding* , meaning that whatever is typed within the input will overwrite the data property named message.   The checkbox on line 8 as well is attached to the data property named checked and returns the value to the label on line 9 by the way of declarative rendering using the template syntax.</p>
+          <p>*This can be viewed by using the inspector tools. </p>
+        </div>
+        <p data-height="500" data-theme-id="0" data-slug-hash="yMjBZN" data-default-tab="html,result" data-user="qiongrongjiang" data-embed-version="2" data-pen-title="1. Basic Data Binding Using Model" class="codepen">See the Pen <a href="https://codepen.io/qiongrongjiang/pen/yMjBZN/">1. Basic Data Binding Using Model</a> by Qiongrong  Jiang (<a href="http://codepen.io/qiongrongjiang">@qiongrongjiang</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+      </div>
+
+      <div>
+        <h3>2. Vue Event Listeners</h3>
+        <p data-height="500" data-theme-id="0" data-slug-hash="OpZPvm" data-default-tab="result" data-user="qiongrongjiang" data-embed-version="2" data-pen-title="2. Vue Event Listeners" class="codepen">See the Pen <a href="https://codepen.io/qiongrongjiang/pen/OpZPvm/">2. Vue Event Listeners</a> by Qiongrong  Jiang (<a href="http://codepen.io/qiongrongjiang">@qiongrongjiang</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+      </div>
+
+      <div>
+        <h3>3. Loops</h3>
+        <p data-height="500" data-theme-id="0" data-slug-hash="yMjyOv" data-default-tab="html,result" data-user="qiongrongjiang" data-embed-version="2" data-pen-title="3. Loops" class="codepen">See the Pen <a href="https://codepen.io/qiongrongjiang/pen/yMjyOv/">3. Loops</a> by Qiongrong  Jiang (<a href="http://codepen.io/qiongrongjiang">@qiongrongjiang</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+      </div>
+
+      <div>
+        <h3>4. Conditionals</h3>
+        <p data-height="500" data-theme-id="0" data-slug-hash="QprbLV" data-default-tab="html,result" data-user="qiongrongjiang" data-embed-version="2" data-pen-title="4. Conditionals" class="codepen">See the Pen <a href="https://codepen.io/qiongrongjiang/pen/QprbLV/">4. Conditionals</a> by Qiongrong  Jiang (<a href="http://codepen.io/qiongrongjiang">@qiongrongjiang</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+      </div>
+
+      <div>
+        <h3>5. Attribute and Class Binding</h3>
+        <p data-height="500" data-theme-id="0" data-slug-hash="xqjGdO" data-default-tab="html,result" data-user="qiongrongjiang" data-embed-version="2" data-pen-title="5. Attribute and Class Binding" class="codepen">See the Pen <a href="https://codepen.io/qiongrongjiang/pen/xqjGdO/">5. Attribute and Class Binding</a> by Qiongrong  Jiang (<a href="http://codepen.io/qiongrongjiang">@qiongrongjiang</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+      </div>
+
+      <div>
+        <h3>6. Components</h3>
+        <p data-height="500" data-theme-id="0" data-slug-hash="evrNQJ" data-default-tab="result" data-user="qiongrongjiang" data-embed-version="2" data-pen-title="6. Components" class="codepen">See the Pen <a href="https://codepen.io/qiongrongjiang/pen/evrNQJ/">6. Components</a> by Qiongrong  Jiang (<a href="http://codepen.io/qiongrongjiang">@qiongrongjiang</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+      </div>
+
+      <div>
+        <h3>7. Vue.js Exercise</h3>
+        <p data-height="500" data-theme-id="0" data-slug-hash="xqjVNr" data-default-tab="html,result" data-user="qiongrongjiang" data-embed-version="2" data-pen-title="7. Vue.js Exercise" class="codepen">See the Pen <a href="https://codepen.io/qiongrongjiang/pen/xqjVNr/">7. Vue.js Exercise</a> by Qiongrong  Jiang (<a href="http://codepen.io/qiongrongjiang">@qiongrongjiang</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+      </div>
+
+      <div>
+        <h3>8. Solution for Vue.js Exercise</h3>
+        <p data-height="500" data-theme-id="0" data-slug-hash="ZeoGwQ" data-default-tab="html,result" data-user="qiongrongjiang" data-embed-version="2" data-pen-title="8. Solution for Vue.js Exercise" class="codepen">See the Pen <a href="https://codepen.io/qiongrongjiang/pen/ZeoGwQ/">8. Solution for Vue.js Exercise</a> by Qiongrong  Jiang (<a href="http://codepen.io/qiongrongjiang">@qiongrongjiang</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/vue" charset="utf-8"></script>
+  <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+  <script type="text/javascript">
+    var app = new Vue({
+      el: '#tutorial',
+      data:{
+        isShow: false
+      },
+      methods:{
+        readMore: function(){
+          this.isShow = !this.isShow
+        }
+      }
+    })
+  </script>
+</body>
+</html>
