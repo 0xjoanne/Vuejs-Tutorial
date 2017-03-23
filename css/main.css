@@ -52,14 +52,14 @@ main{
   margin: 0 auto;
 }
 
-.section{
-  height: 100vh;
+.cp_embed_wrapper{
+  margin-top: 50px;
 }
 
 .section-header{
   margin-top: 100px;
 }
 
-.cp_embed_wrapper{
-  margin-top: 50px;
+section{
+  height: 100vh;
 }
