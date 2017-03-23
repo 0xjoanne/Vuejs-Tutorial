@@ -21,6 +21,11 @@ h1{
 }
 
 h2,
+.section-header,
+.box--grey{
+  margin-bottom: 50px;
+}
+h2,
 .text--center{
   text-align: center;
 }
@@ -32,7 +37,6 @@ h3{
 .box--grey{
   background: #f8f8f8;
   padding: 50px 35px;
-  margin-top: 100px;
 }
 
 .color--green{
@@ -52,14 +56,6 @@ main{
   margin: 0 auto;
 }
 
-.cp_embed_wrapper{
-  margin-top: 50px;
-}
-
-.section-header{
-  padding-top: 100px;
-}
-
-section{
-  height: 100vh;
+ol{
+  margin-left: 30px;
 }
