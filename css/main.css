@@ -59,3 +59,15 @@ main{
 ol{
   margin-left: 30px;
 }
+
+.resource__h3{
+  margin-top: 50px;
+}
+
+#fp-nav ul li a span{
+  background: #41b883;
+}
+
+iframe{
+  /*display: none;*/
+}
